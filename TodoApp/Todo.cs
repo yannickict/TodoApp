@@ -8,7 +8,7 @@ public class Todo
     public bool IsCompleted { get; private set; } = false;
     public Todo(string content)
     {
-        _id = idCount++;
+        _id = Interlocked.Increment(ref idCount);
         _content = content;
     }
 }
