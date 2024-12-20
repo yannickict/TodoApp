@@ -10,5 +10,11 @@ public class WorkTodo : Todo
     {
         _deadline = deadline;
         _client = client;
+        _type = "Work";
+    }
+
+    public override string ToString()
+    {
+        return base.ToString() + "Deadline: " + _deadline + "\n" + "Client: " + _client + "\n";
     }
 }

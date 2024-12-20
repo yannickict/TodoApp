@@ -6,5 +6,11 @@ public class ClubTodo : Todo
     public ClubTodo(string content, string club) : base(content)
     {
         _club = club;
+        _type = "Club";
+    }
+
+    public override string ToString()
+    {
+        return base.ToString() + "Club: " + _club + "\n";
     }
 }

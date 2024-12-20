@@ -37,9 +37,25 @@ public class Person
         _todos.Add(todo);
     }
 
-
     public void RemoveTodo(Todo todo)
     {
         _todos.Remove(todo);
+    }
+
+    public Todo GetTodoById(int id)
+    {
+        foreach (var todo in _todos)
+        {
+            if(todo._id == id)
+            {
+                return todo;
+            }
+        }
+        return null;
+    }
+
+    public List<Todo> GetTodos()
+    {
+        return _todos;
     }
 }

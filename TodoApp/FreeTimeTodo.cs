@@ -6,5 +6,11 @@ public class FreeTimeTodo : Todo
     public FreeTimeTodo(string content, string location) : base(content)
     {
         _location = location;
+        _type = "FreeTime";
+    }
+
+    public override string ToString()
+    {
+        return base.ToString() + "Location: " + _location + "\n";
     }
 }
