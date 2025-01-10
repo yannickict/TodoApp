@@ -6,7 +6,7 @@ namespace TodoAppUT
     public class PersonTests
     {
         [TestMethod]
-        public void Constructor_ShouldInitializeFirstNameAndLastName()
+        public void CheckConstructor()
         {
             string firstName = "Hegi";
             string lastName = "Marvin";
@@ -73,7 +73,7 @@ namespace TodoAppUT
         }
 
         [TestMethod]
-        public void CheckIfGetTodoByID_returns_correct()
+        public void CheckIfGetTodoByIdReturnsCorrect()
         {
             var person = new Person("Hegi", "Marvin");
             person.AddTodo("Task 1");
@@ -101,7 +101,7 @@ namespace TodoAppUT
         }
 
         [TestMethod]
-        public void CheckIfAddingTodo_IncreaseCount()
+        public void CheckIfAddingTodoIncreasesCount()
         {
             var person = new Person("Hegi", "Marvin");
             person.AddTodo("Task 1");

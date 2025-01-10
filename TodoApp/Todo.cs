@@ -5,7 +5,7 @@ public class Todo
     public readonly int Id;
     protected static int IdCount = 0;
     private string _content;
-    internal string Type;
+    public string Type;
     
     public bool IsCompleted { get; private set; } = false;
     public Todo(string content)
