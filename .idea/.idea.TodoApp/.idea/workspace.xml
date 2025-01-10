@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="203181b2-b5e6-4128-94d6-08a91450790d" name="Changes" comment="Changes">
+    <list default="true" id="203181b2-b5e6-4128-94d6-08a91450790d" name="Changes" comment="last changes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoAppUT/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoAppUT/UnitTest1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1734678656445" duration="5335000" />
       <workItem from="1734697401220" duration="2011000" />
       <workItem from="1736492546773" duration="3133000" />
-      <workItem from="1736495698272" duration="9140000" />
+      <workItem from="1736495698272" duration="9799000" />
     </task>
     <task id="LOCAL-00001" summary="Start of project">
       <option name="closed" value="true" />
@@ -172,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736511670167</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="last changes">
+      <option name="closed" value="true" />
+      <created>1736516190964</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736516190964</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,7 @@
     <MESSAGE value="unit tests done" />
     <MESSAGE value="good unit tests now" />
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="last changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes" />
   </component>
 </project>
