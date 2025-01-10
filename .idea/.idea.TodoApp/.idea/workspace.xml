@@ -9,12 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="203181b2-b5e6-4128-94d6-08a91450790d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClubTodo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClubTodo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/FreeTimeTodo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/FreeTimeTodo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/Todo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/Todo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/WorkTodo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/WorkTodo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +33,6 @@
     &quot;accountId&quot;: &quot;96e15150-b265-44ec-b2b6-9ae994adb51e&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/yanni/RiderProjects/TodoApp/TodoApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/yanni/RiderProjects/TodoApp/TodoApp/Todo.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -54,6 +47,7 @@
   "keyToString": {
     ".NET Project.TodoApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "aa955978-0d22-4005-8291-b70d9dcc5121.executor": "Debug",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.TodoApp">
     <configuration name="TodoApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -92,7 +86,9 @@
       <option name="presentableId" value="Default" />
       <updated>1734074106491</updated>
       <workItem from="1734074109120" duration="4756000" />
-      <workItem from="1734678656445" duration="4692000" />
+      <workItem from="1734678656445" duration="5335000" />
+      <workItem from="1734697401220" duration="2011000" />
+      <workItem from="1736492546773" duration="2887000" />
     </task>
     <task id="LOCAL-00001" summary="Start of project">
       <option name="closed" value="true" />
@@ -118,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734078291900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Main programm erstellt">
+      <option name="closed" value="true" />
+      <created>1734684792106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734684792106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +146,26 @@
     <MESSAGE value="Start of project" />
     <MESSAGE value="Added base Logic" />
     <MESSAGE value="small change to increment" />
-    <option name="LAST_COMMIT_MESSAGE" value="small change to increment" />
+    <MESSAGE value="Main programm erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main programm erstellt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TodoAppUT/UnitTest1.cs</url>
+          <line>9</line>
+          <properties documentPath="C:\Users\yanni\RiderProjects\TodoApp\TodoAppUT\UnitTest1.cs" containingFunctionPresentation="Method 'Constructor_ShouldInitializeFirstNameAndLastName'">
+            <startOffsets>
+              <option value="189" />
+            </startOffsets>
+            <endOffsets>
+              <option value="190" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using TodoApp;
 
-namespace TodoAppConsole
+namespace TodoApp
 {
     class Program
     {
