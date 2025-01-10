@@ -84,13 +84,13 @@ namespace TodoApp
                 switch (todoChoice)
                 {
                     case "1":
-                        CreateTodoForPerson(selectedPerson);
+                        CreateTodo(selectedPerson);
                         break;
                     case "2":
                         ViewTodos(selectedPerson);
                         break;
                     case "3":
-                        RemoveTodoForPerson(selectedPerson);
+                        RemoveTodo(selectedPerson);
                         break;
                     case "4":
                         managingTodos = false;
@@ -123,7 +123,7 @@ namespace TodoApp
             }
         }
 
-        static void CreateTodoForPerson(Person person)
+        static void CreateTodo(Person person)
         {
             Console.Clear();
             Console.WriteLine("Select type of todo:");
@@ -193,7 +193,7 @@ namespace TodoApp
             Console.ReadLine();
         }
 
-        static void RemoveTodoForPerson(Person person)
+        static void RemoveTodo(Person person)
         {
             Console.Clear();
             Console.WriteLine("Enter the ID of the todo to remove:");
