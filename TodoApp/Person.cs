@@ -13,7 +13,7 @@ public class Person
         LastName = lastName;
     }
 
-    public void AddTodo(string type, string content)
+    public void AddTodo(string content)
     {
         var todo = new Todo(content);
         _todos.Add(todo);
@@ -46,7 +46,7 @@ public class Person
     {
         foreach (var todo in _todos)
         {
-            if(todo._id == id)
+            if(todo.Id == id)
             {
                 return todo;
             }

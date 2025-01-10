@@ -2,21 +2,21 @@ namespace TodoApp;
 
 public class Todo
 {
-    public readonly int _id;
-    protected static int idCount = 0;
+    public readonly int Id;
+    protected static int IdCount = 0;
     private string _content;
-    internal string _type;
+    internal string Type;
     
     public bool IsCompleted { get; private set; } = false;
     public Todo(string content)
     {
-        _id = Interlocked.Increment(ref idCount);
+        Id = Interlocked.Increment(ref IdCount);
         _content = content;
-        _type = "General";
+        Type = "General";
     }
 
     public override string ToString()
     {
-        return "Id: 00" + _id + " | Type: General\n" + "Content: " + _content + "\n";
+        return "Id: 00" + Id + " | Type:" + Type + " \n" + "Content: " + _content + "\n";
     }
 }

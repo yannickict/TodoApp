@@ -6,7 +6,7 @@ public class ClubTodo : Todo
     public ClubTodo(string content, string club) : base(content)
     {
         _club = club;
-        _type = "Club";
+        Type = "Club";
     }
 
     public override string ToString()

@@ -16,5 +16,12 @@ namespace TodoAppUT
             Assert.AreEqual(firstName, person.FirstName);
             Assert.AreEqual(lastName, person.LastName);
         }
+
+        [TestMethod]
+        public void CheckIfCanAddTodo()
+        {
+            var person = new Person("Hegi", "Marvin");
+            
+        }
     }
 }

@@ -6,7 +6,7 @@ public class FreeTimeTodo : Todo
     public FreeTimeTodo(string content, string location) : base(content)
     {
         _location = location;
-        _type = "FreeTime";
+        Type = "FreeTime";
     }
 
     public override string ToString()

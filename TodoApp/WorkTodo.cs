@@ -10,7 +10,7 @@ public class WorkTodo : Todo
     {
         _deadline = deadline;
         _client = client;
-        _type = "Work";
+        Type = "Work";
     }
 
     public override string ToString()

@@ -139,7 +139,7 @@ namespace TodoApp
             switch (todoType)
             {
                 case "1":
-                    person.AddTodo("General", content);
+                    person.AddTodo(content);
                     Console.WriteLine("Added general todo.");
                     break;
                 case "2":
