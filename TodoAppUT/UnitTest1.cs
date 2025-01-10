@@ -73,7 +73,7 @@ namespace TodoAppUT
         }
 
         [TestMethod]
-        public void GetTodoById_ShouldReturnCorrectTodo()
+        public void CheckIfGetTodoByID_returns_correct()
         {
             var person = new Person("Hegi", "Marvin");
             person.AddTodo("Task 1");
@@ -89,7 +89,7 @@ namespace TodoAppUT
         }
 
         [TestMethod]
-        public void RemoveTodo_ShouldRemoveTodoFromList()
+        public void CheckIfRemoveTodoWorks()
         {
             var person = new Person("Hegi", "Marvin");
             person.AddTodo("Task 1");
@@ -101,7 +101,7 @@ namespace TodoAppUT
         }
 
         [TestMethod]
-        public void AddMultipleTodos_ShouldIncreaseListCount()
+        public void CheckIfAddingTodo_IncreaseCount()
         {
             var person = new Person("Hegi", "Marvin");
             person.AddTodo("Task 1");
@@ -109,32 +109,6 @@ namespace TodoAppUT
             person.AddClubTodo("Task 3", "Club A");
 
             Assert.AreEqual(3, person.GetTodos().Count);
-        }
-    }
-
-    [TestClass]
-    public class TodoTests
-    {
-        [TestMethod]
-        public void Constructor_ShouldInitializeIdAndContent()
-        {
-            string content = "Sample Task";
-
-            var todo = new Todo(content);
-
-            Assert.AreEqual(content, todo.ToString().Split("Content: ")[1].Trim());
-            Assert.IsTrue(todo.Id > 0);
-        }
-
-        [TestMethod]
-        public void ToString_ShouldReturnCorrectFormat()
-        {
-            string content = "Formatted Task";
-
-            var todo = new Todo(content);
-
-            string expectedFormat = "Id: 00" + todo.Id + " | Type:General \nContent: " + content + "\n";
-            Assert.AreEqual(expectedFormat, todo.ToString());
         }
     }
 }

@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="203181b2-b5e6-4128-94d6-08a91450790d" name="Changes" comment="updated some names">
+    <list default="true" id="203181b2-b5e6-4128-94d6-08a91450790d" name="Changes" comment="unit tests done">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoAppUT/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoAppUT/UnitTest1.cs" afterDir="false" />
     </list>
@@ -87,7 +87,7 @@
       <workItem from="1734678656445" duration="5335000" />
       <workItem from="1734697401220" duration="2011000" />
       <workItem from="1736492546773" duration="3133000" />
-      <workItem from="1736495698272" duration="1745000" />
+      <workItem from="1736495698272" duration="2863000" />
     </task>
     <task id="LOCAL-00001" summary="Start of project">
       <option name="closed" value="true" />
@@ -145,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736496877197</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="unit tests done">
+      <option name="closed" value="true" />
+      <created>1736497638737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736497638737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +181,7 @@
     <MESSAGE value="added unit test project" />
     <MESSAGE value="now with testing" />
     <MESSAGE value="updated some names" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated some names" />
+    <MESSAGE value="unit tests done" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit tests done" />
   </component>
 </project>
